@@ -155,11 +155,11 @@ A topic will normally contain:
 
 ```
 topic-name/
-├── index.md
+├── topic-name.md
 └── manifest.yml
 ```
 
-The `index.md` file contains the actual documentation intended for readers.
+The `topic-name.md` file contains the actual documentation intended for readers.
 
 The `manifest.yml` file contains machine-readable information about the topic and is primarily used by the repository itself.
 
