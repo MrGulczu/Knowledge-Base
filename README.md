@@ -4,24 +4,16 @@ A practical, continuously developed knowledge base covering IT infrastructure, s
 
 The purpose of this repository is to collect technical knowledge in a format that is:
 
-- easy to read;
-    
-- easy to search;
-    
-- easy to maintain;
-    
-- easy to update;
-    
-- independent from any specific documentation platform;
-    
-- available directly from GitHub;
-    
-- usable locally with tools such as Obsidian;
-    
-- version controlled with Git.
+- easy to read
+- easy to search
+- easy to maintain
+- easy to update
+- independent from any specific documentation platform
+- available directly from GitHub
+- usable locally with tools such as Obsidian
+- version controlled with Git
 
-
-All knowledge articles are written primarily in **Markdown (`.md`)**.
+All knowledge articles are written primarily in **Markdown (**`**.md**`**)**.
 
 ---
 
@@ -37,20 +29,13 @@ Simply browse the repository using GitHub and open the Markdown files directly i
 
 GitHub automatically renders Markdown, including:
 
-- headings;
-    
-- tables;
-    
-- lists;
-    
-- code blocks;
-    
-- links;
-    
-- images;
-    
-- formatting.
-
+- headings
+- tables
+- lists
+- code blocks
+- links
+- images
+- formatting
 
 This is the easiest option if you only want to read the documentation.
 
@@ -62,37 +47,26 @@ For the best experience, I recommend downloading the repository and opening it w
 
 Obsidian provides:
 
-- fast full-text search;
+- fast full-text search
+- easy navigation between documents
+- Markdown editing
+- backlinks
+- graph view
+- tags
+- local offline access
+- quick navigation between related topics
     
-- easy navigation between documents;
-    
-- Markdown editing;
-    
-- backlinks;
-    
-- graph view;
-    
-- tags;
-    
-- local offline access;
-    
-- quick navigation between related topics.
-
 
 Obsidian is optional.
 
 The repository uses standard Markdown wherever possible, so the documentation can still be read using:
 
-- GitHub;
+- GitHub
+- VS Code
+- Neovim
+- any Markdown editor
+- any text editor
     
-- VS Code;
-    
-- Neovim;
-    
-- any Markdown editor;
-    
-- any text editor.
-
 
 ---
 
@@ -100,7 +74,7 @@ The repository uses standard Markdown wherever possible, so the documentation ca
 
 The repository is intentionally kept simple.
 
-```text
+```
 knowledge-base/
 ├── README.md
 ├── content/
@@ -113,7 +87,7 @@ Contains the actual knowledge base.
 
 The high-level structure is organized by technical domain.
 
-```text
+```
 content/
 ├── 01-architecture/
 ├── 02-identity-access/
@@ -136,7 +110,7 @@ Topics are grouped by their primary technical purpose rather than by vendor.
 
 For example:
 
-```text
+```
 content/
 └── 03-networking/
     └── firewalls/
@@ -165,14 +139,15 @@ The `manifest.yml` file contains machine-readable information about the topic an
 
 It may support future functionality such as:
 
-- website generation;
-- navigation;
-- categorization;
-- search;
-- tags;
-- topic relationships;
-- document status;
-- publishing controls.
+- website generation
+- navigation
+- categorization
+- search
+- tags
+- topic relationships
+- document status
+- publishing controls
+    
 
 If you are using this repository only for learning or as a technical reference, you do **not** need to read or understand the `manifest.yml` files.
 
@@ -184,13 +159,7 @@ The `manifest.yml` files are not required to understand the knowledge base.
 
 All important learning material is stored inside the Markdown files.
 
-You can simply ignore the manifests and focus on:
-
-```
-index.md
-```
-
-and other `.md` files.
+You can simply ignore the manifests and focus on the `.md` files.
 
 ### Removing Manifest Files
 
@@ -268,7 +237,7 @@ The `templates/` directory contains reusable templates for creating new document
 
 For example:
 
-```text
+```
 templates/
 ├── topic.md
 ├── manifest.yml
@@ -295,7 +264,7 @@ Then select the cloned repository.
 
 For example:
 
-```text
+```
 knowledge-base/
 ```
 
@@ -323,13 +292,13 @@ Before cloning the repository, make sure Git is installed.
 
 Check using:
 
-```bash
+```
 git --version
 ```
 
 If Git is installed, you should see something similar to:
 
-```text
+```
 git version 2.x.x
 ```
 
@@ -341,32 +310,32 @@ git version 2.x.x
 
 ### Arch Linux
 
-```bash
+```
 sudo pacman -S git
 ```
 
 ### Ubuntu / Debian
 
-```bash
+```
 sudo apt update
 sudo apt install git
 ```
 
 ### Fedora
 
-```bash
+```
 sudo dnf install git
 ```
 
 ### openSUSE
 
-```bash
+```
 sudo zypper install git
 ```
 
 Verify the installation:
 
-```bash
+```
 git --version
 ```
 
@@ -376,20 +345,20 @@ Open a terminal and move to the directory where you want to store the repository
 
 For example:
 
-```bash
+```
 cd ~/Documents
 ```
 
 Clone the repository:
 
-```bash
+```
 git clone https://github.com/MrGulczu/Knowledge-Base
 ```
 
 Then enter the repository:
 
-```bash
-cd knowledge-base
+```
+cd Knowledge-Base
 ```
 
 You can now open this directory using Obsidian or any Markdown editor.
@@ -408,18 +377,15 @@ Install it using the default options unless you have a reason to change them.
 
 After installation, open one of the following:
 
-- PowerShell;
+- PowerShell
+- Windows Terminal
+- Command Prompt
+- Git Bash
     
-- Windows Terminal;
-    
-- Command Prompt;
-    
-- Git Bash.
-
 
 Verify that Git works:
 
-```powershell
+```
 git --version
 ```
 
@@ -427,20 +393,20 @@ git --version
 
 For example, to clone it into your Documents folder:
 
-```powershell
+```
 cd $HOME\Documents
 ```
 
 Then:
 
-```powershell
+```
 git clone https://github.com/MrGulczu/Knowledge-Base
 ```
 
 Enter the directory:
 
-```powershell
-cd knowledge-base
+```
+cd Knowledge-Base
 ```
 
 You can now open this folder as an Obsidian vault.
@@ -453,7 +419,7 @@ Git may already be available on macOS.
 
 Check using:
 
-```bash
+```
 git --version
 ```
 
@@ -461,13 +427,13 @@ If macOS asks you to install the Command Line Developer Tools, accept the instal
 
 Alternatively, if you use Homebrew:
 
-```bash
+```
 brew install git
 ```
 
 Verify:
 
-```bash
+```
 git --version
 ```
 
@@ -477,20 +443,20 @@ Open Terminal.
 
 Move to the directory where you want to keep the repository:
 
-```bash
+```
 cd ~/Documents
 ```
 
 Clone it:
 
-```bash
+```
 git clone https://github.com/MrGulczu/Knowledge-Base
 ```
 
 Enter the repository:
 
-```bash
-cd knowledge-base
+```
+cd Knowledge-Base
 ```
 
 You can now open the repository as an Obsidian vault.
@@ -507,13 +473,13 @@ Open a terminal inside the repository.
 
 For example:
 
-```bash
-cd ~/Documents/knowledge-base
+```
+cd ~/Documents/Knowledge-Base
 ```
 
 Then run:
 
-```bash
+```
 git pull
 ```
 
@@ -521,15 +487,15 @@ Git will download the newest changes and update your local copy.
 
 On Windows:
 
-```powershell
-cd $HOME\Documents\knowledge-base
+```
+cd $HOME\Documents\Knowledge-Base
 git pull
 ```
 
 On Linux and macOS:
 
-```bash
-cd ~/Documents/knowledge-base
+```
+cd ~/Documents/Knowledge-Base
 git pull
 ```
 
@@ -541,8 +507,8 @@ That is normally all you need.
 
 After the repository has been cloned once, future updates usually look like this:
 
-```bash
-cd knowledge-base
+```
+cd Knowledge-Base
 git pull
 ```
 
@@ -556,25 +522,25 @@ Obsidian will automatically see the updated Markdown files.
 
 You can retrieve information about the latest version from the remote repository without immediately changing your local files:
 
-```bash
+```
 git fetch
 ```
 
 Then:
 
-```bash
+```
 git status
 ```
 
 Git may display something similar to:
 
-```text
+```
 Your branch is behind 'origin/main' by 5 commits, and can be fast-forwarded.
 ```
 
 You can then download the updates using:
 
-```bash
+```
 git pull
 ```
 
@@ -584,7 +550,7 @@ git pull
 
 If you only use the repository for reading, updating should normally be as simple as:
 
-```bash
+```
 git pull
 ```
 
@@ -592,13 +558,13 @@ However, if you modify the Markdown files locally, Git may prevent an update if 
 
 Check your local changes using:
 
-```bash
+```
 git status
 ```
 
 You can inspect what has changed with:
 
-```bash
+```
 git diff
 ```
 
@@ -619,7 +585,7 @@ On the repository page:
 3. Extract the downloaded archive.
     
 4. Open the extracted directory in Obsidian or another Markdown editor.
-
+    
 
 This method works, but it is not recommended for regular use because future updates need to be downloaded manually.
 
@@ -635,17 +601,13 @@ GitHub can be used to search the repository directly.
 
 Use the search field while browsing the repository to search for:
 
-- technologies;
+- technologies
+- commands
+- error messages
+- configuration options
+- protocols
+- products
     
-- commands;
-    
-- error messages;
-    
-- configuration options;
-    
-- protocols;
-    
-- products.
 
 ## Obsidian
 
@@ -653,13 +615,13 @@ Obsidian provides very fast local search.
 
 Use:
 
-```text
+```
 Ctrl + Shift + F
 ```
 
 or on macOS:
 
-```text
+```
 Cmd + Shift + F
 ```
 
@@ -675,7 +637,7 @@ The content is organized primarily by domain.
 
 A typical path may look like:
 
-```text
+```
 Networking
     ↓
 VPN
@@ -687,14 +649,13 @@ IKEv2
 
 Another example:
 
-```text
+```
 Identity & Access
     ↓
 Microsoft Entra ID
     ↓
 Conditional Access
 ```
-
 
 If you are unsure where something belongs, think about its primary purpose rather than the vendor that created it.
 
@@ -708,7 +669,7 @@ A Markdown file is simply a text file using lightweight formatting.
 
 Example:
 
-```markdown
+````
 # Active Directory
 
 ## Overview
@@ -717,10 +678,10 @@ Active Directory is a directory service developed by Microsoft.
 
 ## Useful Commands
 
-\`\`\`powershell
+```powershell
 Get-ADUser -Filter *
-\`\`\`
 ```
+````
 
 Markdown can be read directly as plain text, but platforms such as GitHub and Obsidian render it as formatted documentation.
 
@@ -730,33 +691,22 @@ Markdown can be read directly as plain text, but platforms such as GitHub and Ob
 
 Markdown was selected as the primary documentation format because it provides:
 
-- excellent Git integration;
+- excellent Git integration
+- readable version history
+- easy editing
+- portability
+- GitHub compatibility
+- Obsidian compatibility
+- website integration
+- simple linking
+- code blocks
+- low complexity
+- long-term maintainability
     
-- readable version history;
-    
-- easy editing;
-    
-- portability;
-    
-- GitHub compatibility;
-    
-- Obsidian compatibility;
-    
-- website integration;
-    
-- simple linking;
-    
-- code blocks;
-    
-- low complexity;
-    
-- long-term maintainability.
-
 
 Markdown files are the primary source of knowledge in this repository.
 
 Other formats such as PDF may be generated for specific purposes, but should not replace the Markdown source unless necessary.
-
 
 ---
 
@@ -764,9 +714,8 @@ Other formats such as PDF may be generated for specific purposes, but should not
 
 The knowledge base is intended both as:
 
-- technical reference documentation;
-    
-- learning material.
+- technical reference documentation
+- learning material
     
 
 You do not necessarily need to read it from beginning to end.
@@ -775,7 +724,7 @@ You can start with the area that interests you.
 
 For example, someone learning infrastructure administration could explore:
 
-```text
+```
 Architecture
 ↓
 Networking
@@ -791,7 +740,7 @@ Cybersecurity
 
 Someone working primarily with security might instead follow:
 
-```text
+```
 Identity & Access
 ↓
 Cybersecurity
@@ -813,18 +762,13 @@ AI tools are used during the creation and maintenance of this knowledge base as 
 
 Their purpose is to help with tasks such as:
 
-- organizing existing notes and ideas;
+- organizing existing notes and ideas
+- improving wording and readability
+- summarizing information already collected by the author
+- restructuring documentation
+- correcting grammar and formatting
+- expressing technical thoughts more clearly and consistently
     
-- improving wording and readability;
-    
-- summarizing information already collected by the author;
-    
-- restructuring documentation;
-    
-- correcting grammar and formatting;
-    
-- expressing technical thoughts more clearly and consistently.
-
 
 AI is **not treated as a source of technical knowledge** for this repository.
 
@@ -846,7 +790,7 @@ Existing articles may also be expanded, corrected, reorganized, or updated as te
 
 For that reason, keeping your local repository updated is recommended:
 
-```bash
+```
 git pull
 ```
 
@@ -868,16 +812,16 @@ Always understand a command or configuration change before applying it.
 
 If you already have Git installed, the entire process is:
 
-```bash
-git clone <repository-url>
-cd knowledge-base
+```
+git clone https://github.com/MrGulczu/Knowledge-Base
+cd Knowledge-Base
 ```
 
 Open the directory in Obsidian.
 
 Later, update it using:
 
-```bash
+```
 git pull
 ```
 
