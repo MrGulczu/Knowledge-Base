@@ -228,7 +228,10 @@ Local destination
 → Send directly
 
 Remote destination
-→ Send to the default gateway
+→ Use the matching route
+
+If no specific route exists
+→ Use the default gateway
 ```
 
 ---
@@ -623,7 +626,7 @@ IPv6 uses multicast instead.
 IPv6 interfaces commonly have a Link-Local address beginning with:
 
 ```text
-fe80::
+fe80::/10
 ```
 
 even when the same interface also has a globally routable address.
@@ -743,8 +746,11 @@ Local
 or:
 
 ```text
-Remote
-→ Send to the default gateway
+Remote destination
+→ Use the matching route
+
+If no specific route exists
+→ Use the default gateway
 ```
 
 IPv4 includes public and private address ranges.
