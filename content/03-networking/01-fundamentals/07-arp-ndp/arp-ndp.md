@@ -359,7 +359,7 @@ ARP security protections depend on the network environment and may include switc
 
 ---
 
-# Neighbor Discovery Protocol
+## Neighbor Discovery Protocol
 
 ## Overview
 
