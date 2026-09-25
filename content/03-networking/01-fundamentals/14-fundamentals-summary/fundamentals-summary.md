@@ -1579,6 +1579,3 @@ Is packet loss reducing performance?
 
 Is latency or jitter affecting the connection?
 ```
-
-That is the purpose of the networking fundamentals section: 
-understanding not only individual protocols, but how they work together in one real communication path.
