@@ -28,16 +28,18 @@ the value normally describes the maximum size of the Layer 3 packet carried insi
 
 ```
 Ethernet Frame
-┌──────────────────────┐
-│ Ethernet Header      │
-├──────────────────────┤
-│ IP Packet            │  ← maximum 1500 bytes
-│   IP Header          │
-│   TCP/UDP Header     │
-│   Application Data   │
-├──────────────────────┤
-│ FCS                  │
-└──────────────────────┘
+┌──────────────────────────────┐
+│ Ethernet Header              ├── not included in MTU
+├──────────────────────────────┤
+│ IP Packet                    │
+│ ┌──────────────────────────┐ │
+│ │ IP Header                │ │
+│ │ TCP/UDP Header           ├──── maximum 1500 bytes (Ethernet MTU)
+│ │ Application Data         │ │
+│ └──────────────────────────┘ │  
+├──────────────────────────────┤
+│ FCS                          ├── not inluded in MTU
+└──────────────────────────────┘
 ```
 
 The complete Ethernet frame is larger than 1500 bytes because the Ethernet header and FCS are outside the IP MTU calculation.
