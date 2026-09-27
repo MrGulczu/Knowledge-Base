@@ -753,6 +753,8 @@ These are conventions.
 
 The protocols themselves should be studied in dedicated articles rather than treating the port number as the protocol definition.
 
+Default association between ports and services can be found in appendix to this article [Ports Reference](../10-ports-sockets/ports-sockets-reference.md)
+
 ---
 
 ## Security Considerations
