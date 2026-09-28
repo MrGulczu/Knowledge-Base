@@ -13,7 +13,7 @@ A DNS server may:
 
 The basic DNS resolution path is introduced in [DNS Resolution Process](../02-dns-resolution-process/dns-resolution-process.md).
 
-Caching behavior is covered in [DNS Caching and TTL](../06-caching-and-ttl/caching-and-ttl.md).
+Caching behavior is covered in [DNS Caching and TTL](../06-caching-and-ttl/caching-and-tll.md).
 
 This topic focuses on:
 
@@ -561,7 +561,7 @@ final answer
 
 Caching therefore improves not only final-answer performance but also the efficiency of recursive resolution.
 
-For more detail, see [DNS Caching and TTL](../06-caching-and-ttl/caching-and-ttl.md).
+For more detail, see [DNS Caching and TTL](../06-caching-and-ttl/caching-and-tll.md).
 
 ---
 
