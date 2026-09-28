@@ -539,7 +539,7 @@ For IPv6, reverse DNS uses:
 ip6.arpa
 ```
 
-The complete reverse DNS structure is covered later in the dedicated Reverse DNS topic.
+The complete reverse DNS structure is covered later in [Reverse DNS](../08-reverse-dns/reverse-dns.md).
 
 A useful rule is:
 

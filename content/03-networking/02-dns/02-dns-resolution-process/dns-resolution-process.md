@@ -578,7 +578,7 @@ without first becoming stuck trying to resolve the name of the DNS server requir
 
 Glue records are particularly important when the names of authoritative servers create a dependency that would otherwise prevent resolution from progressing.
 
-The detailed behavior of DNS delegation and hierarchy is covered later in the dedicated DNS hierarchy topic.
+The detailed behavior of DNS delegation and hierarchy is covered in [DNS Hierarchy](../03-dns-hierarchy/dns-hierarchy.md).
 
 ---
 
@@ -694,7 +694,7 @@ If the alias points into another DNS namespace, the authoritative server for `ex
 
 The recursive resolver continues resolving the target until it obtains the required final information.
 
-DNS aliases and their associated record types are covered in detail in the dedicated DNS records topic.
+DNS aliases and their associated record types are covered in detail in [DNS Records](../04-dns-records/dns-records.md).
 
 ---
 
@@ -727,7 +727,7 @@ Recursive Resolver
 
 The response normally contains a **TTL - Time To Live** value that controls how long the record may remain cached.
 
-The basic role of TTL is introduced in [DNS Fundamentals](../01-dns-fundamentals/dns-fundamentals.md). Caching behavior is covered in greater detail in the dedicated caching and TTL topic.
+The basic role of TTL is introduced in [DNS Fundamentals](../01-dns-fundamentals/dns-fundamentals.md). Caching behavior is covered in greater detail in [DNS Caching and TTL](../06-caching-and-ttl/caching-and-ttl.md).
 
 ---
 
@@ -977,7 +977,7 @@ Internal DNS Server
 Client
 ```
 
-Forwarders, conditional forwarding, and related DNS designs are covered in detail in a dedicated DNS forwarding topic.
+Forwarders, conditional forwarding, and related DNS designs are covered in detail in [DNS Forwarding and Recursion](../07-forwarding-and-recursion/forwarding-and-recursion.md).
 
 ---
 

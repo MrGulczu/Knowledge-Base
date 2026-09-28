@@ -274,7 +274,7 @@ For a standard `/24` network:
 
 The broadcast address is the final address in the subnet and is used to address all hosts in that broadcast domain.
 
-There are exceptions to these traditional rules, such as `/31` point-to-point links, which are covered in the subnetting topic.
+There are exceptions to these traditional rules, such as `/31` point-to-point links, which are covered in [IPv4 Subnetting](../05-ipv4-subnetting/ipv4-subnetting.md).
 
 ---
 
@@ -958,7 +958,7 @@ IPv4 networks frequently use many different subnet sizes depending on the number
 
 IPv6 generally has enough address space that conserving addresses is much less important.
 
-The detailed structure of IPv6 addressing and subnetting is covered in the dedicated IPv6 topic.
+The detailed structure of IPv6 addressing and subnetting is covered in the dedicated [IPv6 Basics](../06-ipv6-basics/ipv6-basics.md).
 
 ---
 

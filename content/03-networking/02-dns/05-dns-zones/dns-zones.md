@@ -218,7 +218,7 @@ is represented in reverse DNS using a reversed address structure:
 
 The reason is that DNS hierarchy is processed from right to left.
 
-Reverse DNS is covered in more detail later in the dedicated Reverse DNS topic.
+Reverse DNS is covered in more detail later in [Reverse DNS](../08-reverse-dns/reverse-dns.md).
 
 ---
 
@@ -935,7 +935,7 @@ Separating public and internal DNS information can help:
 - separate administrative responsibilities,
 - apply different security policies.
 
-Internal and public DNS design is covered later in the dedicated Internal and Public DNS topic.
+Internal and public DNS design is covered is [Internal and Public DNS](../09-internal-and-public-dns/internal-and-public-dns.md).
 
 ---
 

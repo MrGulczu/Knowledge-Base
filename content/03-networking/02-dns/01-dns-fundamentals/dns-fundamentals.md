@@ -275,7 +275,7 @@ Client
 
 The recursive resolver may also cache the answer so that future requests can be answered more quickly.
 
-The detailed resolution process is covered in the dedicated DNS resolution topic.
+The detailed resolution process is covered in the [DNS Resolution Process](../02-dns-resolution-process/dns-resolution-process.md).
 
 ---
 
@@ -368,7 +368,7 @@ DNS Root
 
 This distribution allows DNS to scale globally without requiring one central server to maintain every possible record.
 
-The complete DNS hierarchy and delegation process are covered in a separate topic.
+The complete DNS hierarchy and delegation process are covered in [DNS Hierarchy](../03-dns-hierarchy/dns-hierarchy.md).
 
 ---
 
@@ -568,7 +568,7 @@ DNS can be used for information related to:
 
 These different types of DNS information are represented by different DNS record types.
 
-DNS record types are covered in detail in a dedicated topic.
+DNS record types are covered in detail in [DNS Records](../04-dns-records/dns-records.md).
 
 ---
 
@@ -715,7 +715,7 @@ equals:
 1 hour
 ```
 
-The details of DNS caching, TTL behavior, negative caching, and DNS propagation are covered in a dedicated topic.
+The details of DNS caching, TTL behavior, negative caching, and DNS propagation are covered in [DNS Caching and TTL](../06-caching-and-ttl/caching-and-ttl.md).
 
 ---
 

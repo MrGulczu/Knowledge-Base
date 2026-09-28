@@ -539,7 +539,7 @@ These records tell resolvers which DNS servers are authoritative for the child z
 
 The resolver can then send DNS queries directly to those authoritative servers.
 
-NS records are introduced here only in the context of delegation. DNS record types will be covered in more detail later.
+NS records are introduced here only in the context of delegation. DNS record types are covered in [DNS Records](../04-dns-records/dns-records.md).
 
 ---
 

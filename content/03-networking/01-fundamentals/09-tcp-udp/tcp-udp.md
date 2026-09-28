@@ -681,7 +681,7 @@ For example:
 192.168.1.10:52343 → 198.51.100.50:443
 ```
 
-The next topic, Ports and Sockets, covers this in more detail.
+[Ports and Sockets](../10-ports-sockets/ports-sockets.md), covers this in more detail.
 
 ---
 
@@ -715,7 +715,7 @@ Destination Port
 Protocol
 ```
 
-Sockets, listening ports, ephemeral ports, and connection tuples are covered in more detail in the dedicated Ports and Sockets topic.
+Sockets, listening ports, ephemeral ports, and connection tuples are covered in more detail in [Ports and Sockets](../10-ports-sockets/ports-sockets.md).
 
 ---
 
