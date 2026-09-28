@@ -965,7 +965,7 @@ These records can support specialized functions such as:
 
 They are not covered in detail here because the main purpose of this topic is to establish the DNS records most commonly encountered in general networking and systems administration.
 
-Additional record types can be found in appendix to this article [DNS Records Types](../04-dns-records/dns-records-types.md).
+Additional record types can be found in appendix to this article [DNS Records Types](../04-dns-records/appendix/dns-records-types.md).
 
 ---
 

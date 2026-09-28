@@ -4,7 +4,7 @@
 
 This file is a quick-reference catalog of DNS Resource Record (RR) types registered by IANA.
 
-For explanations of the most commonly used DNS records, see [DNS Records](./dns-records.md).
+For explanations of the most commonly used DNS records, see [DNS Records](../../04-dns-records/dns-records.md).
 
 The table includes both normal data records and special query/meta types. Older, experimental, deprecated, and obsolete types are retained because they can still appear in documentation, packet captures, historical configurations, or protocol references.
 
@@ -163,7 +163,7 @@ For normal systems and network administration, the record types most frequently 
 |SVCB|General service endpoint discovery|
 |HTTPS|HTTP/HTTPS endpoint and connection-parameter discovery|
 
-For a detailed explanation of the common records, see [DNS Records](./dns-records.md).
+For a detailed explanation of the common records, see  [DNS Records](../../04-dns-records/dns-records.md).
 
 ---
 
@@ -245,4 +245,4 @@ before major revisions or when a new DNS record type appears in documentation or
 - The most commonly encountered records remain A, AAAA, CNAME, MX, NS, SOA, PTR, TXT, SRV, and CAA.
 - DNSSEC introduces several additional important record types, including DS, DNSKEY, RRSIG, NSEC, and NSEC3.
 - Modern service discovery increasingly uses records such as SVCB and HTTPS.
-- This file is intended as a reference table; detailed explanations of common records belong in [DNS Records](./dns-records.md).
+- This file is intended as a reference table; detailed explanations of common records belong in  [DNS Records](../../04-dns-records/dns-records.md)
