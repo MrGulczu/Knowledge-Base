@@ -114,7 +114,7 @@ IPv4 commonly uses private address ranges inside internal networks and public ad
 
 IPv6 does not use RFC1918 private addressing in the same way. It includes address types such as Global Unicast, Unique Local, and Link-Local addresses.
 
-Subnetting is also approached differently in IPv6. These subjects belong in the dedicated IP addressing and IPv6 topics.
+Subnetting is also approached differently in IPv6. These subjects belong in [IP Addressing](../04-ip-addressing/ip-addressing.md) and [IPv6 Basics](../06-ipv6-basics/ipv6-basics.md).
 
 ---
 

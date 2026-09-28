@@ -587,7 +587,7 @@ Address becomes usable
 
 Duplicate Address Detection is part of IPv6 Neighbor Discovery.
 
-The detailed mechanism is covered in the dedicated ARP and NDP topic.
+The detailed mechanism is covered in [ARP and Neighbor Discovery Protocol](../07-arp-ndp/arp-ndp.md).
 
 ---
 
