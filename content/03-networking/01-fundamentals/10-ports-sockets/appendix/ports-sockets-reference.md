@@ -4,7 +4,7 @@
 
 This file is a quick-reference catalog of commonly encountered network ports and services.
 
-For the concepts behind ports, sockets, client/server communication, and ephemeral ports, see [Ports and Sockets](ports-sockets.md).
+For the concepts behind ports, sockets, client/server communication, and ephemeral ports, see [Ports and Sockets](../../10-ports-sockets/ports-sockets.md).
 
 The authoritative registry for service names and transport protocol port numbers is maintained by IANA:
 
@@ -70,7 +70,7 @@ UDP
 → connectionless transport
 ```
 
-For more detail, see [TCP and UDP](tcp-udp.md).
+For more detail, see [Ports Reference](../../09-tcp-udp/tcp-udp.md).
 
 ---
 
@@ -430,7 +430,7 @@ Conceptually:
 
 Operating systems can use implementation-specific ephemeral-port ranges, so the exact local range should not be assumed solely from the IANA dynamic/private range.
 
-For the relationship between IP addresses, ports, and sockets, see [Ports and Sockets](ports-sockets.md).
+For the relationship between IP addresses, ports, and sockets, see [Ports and Sockets](../../10-ports-sockets/ports-sockets.md).
 
 ---
 
